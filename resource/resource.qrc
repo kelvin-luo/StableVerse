@@ -1,0 +1,26 @@
+﻿<RCC>
+    <qresource prefix="/">
+       
+        <file>icon/Start_running.png</file>
+        <file>icon/love.png</file>
+       
+     
+        
+      
+        <file>icon/The_results_show.png</file>
+         
+        <file>icon/wechat_ailypay.jpg</file>
+        <file>icon/Colorful_images.png</file>
+        <file>icon/Exit.png</file>
+        <file>icon/Home.png</file>
+     
+        
+        
+        <file>icon/easy_mode2.png</file>
+        
+  
+        <file>icon/export_mode.png</file>
+        <file>icon/export_mode2.png</file>
+        <file>icon/anime_coffe.png</file>
+    </qresource>
+</RCC>

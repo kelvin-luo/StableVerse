@@ -1,0 +1,3 @@
+{
+    "m_cmd_str": "sd.exe -m E:/modles_comfyUI_G_SimpleModels/models/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors -p \"A simple creative logo,Side wolf head image,centre,In a minimalist style,Tattoo style,Logo design,color lump,Minimalist style\"  --embd-dir..\\models\\embeddings --lora-model-dir ..\\models\\loras --cfg-scale  4 --strength  0.7  --steps   30 --sampling-method  dpm++2mv2 --schedule karras -W  512 -H  512 --batch-count  2  -v -o 250723_143755_seed_6334.jpg -s 6334 -t 12 "
+}

@@ -1,0 +1,3 @@
+{
+    "m_cmd_str": "sd.exe -m .\\models/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors -p \"The composition is divided into top, bottom, left, and right arrangements, with a watercolor style. There are six girl portraits with different expressions, skin tones, hair colors, appearances, clothing, and hair accessories. The colors are rich and full, the lighting is soft, and the background is a simple gradient color\"  --embd-dir.\\models\\embeddings --lora-model-dir .\\models\\loras --cfg-scale  4 --strength  0.7  --steps   30 --sampling-method  dpm++2mv2 --schedule karras -W  1152 -H  896 --batch-count  2  -v -o 250723_162712_seed_19169.jpg -s 19169 -t 12 "
+}

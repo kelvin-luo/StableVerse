@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1042</width>
+    <height>667</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>StableVerse</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icon_doubao/简单智能.png</normaloff>:/icon_doubao/简单智能.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QTabWidget" name="tabWidget_4">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="icon">
+        <iconset resource="../resource/resource.qrc">
+         <normaloff>:/icon/love.png</normaloff>:/icon/love.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Donate</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>120</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>120</height>
+           </size>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>331</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;⭐Github Page: &lt;a href=&quot;https://github.com/kelvin-luo/StableVerse&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1f9b5d;&quot;&gt;https://github.com/kelvin-luo/StableVerse&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="openExternalLinks">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_3">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>981</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Developing software is not easy,if you like this software, please provide support!Please follow my website,thank you to every star who has helped me the most!</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_7">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>50</y>
+             <width>991</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>If you need the advanced version, please join QQ group 1035351899 to obtain. The group name is 🔥⭐ StableVerse Communication Group ⭐🔥 Contact us!</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>412</height>
+           </size>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label_DonateQRCode">
+             <property name="minimumSize">
+              <size>
+               <width>820</width>
+               <height>120</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">image: url(:/icon/wechat_ailypay.jpg);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="wordWrap">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="minimumSize">
+                <size>
+                 <width>120</width>
+                 <height>120</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>160</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">image: url(:/icon/anime_coffe.png);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="icon">
+        <iconset resource="../resource/resource.qrc">
+         <normaloff>:/icon/Home.png</normaloff>:/icon/Home.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Home</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QSplitter" name="splitter_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QSplitter" name="splitter_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <widget class="QTabWidget" name="tabWidget_2">
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>240</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>360</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"> 
+background-color: rgb(255, 254, 246);</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <widget class="QWidget" name="tab_3">
+             <attribute name="icon">
+              <iconset resource="../resource/resource.qrc">
+               <normaloff>:/icon/export_mode2.png</normaloff>:/icon/export_mode2.png</iconset>
+             </attribute>
+             <attribute name="title">
+              <string>setting</string>
+             </attribute>
+             <widget class="QGroupBox" name="groupBox_2">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>110</y>
+                <width>301</width>
+                <height>81</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>models</string>
+              </property>
+              <widget class="QLineEdit" name="lineEdit">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>50</y>
+                 <width>181</width>
+                 <height>21</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_InputImg">
+               <property name="geometry">
+                <rect>
+                 <x>200</x>
+                 <y>50</y>
+                 <width>91</width>
+                 <height>23</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Image</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../resource/resource.qrc">
+                 <normaloff>:/icon/Colorful_images.png</normaloff>:/icon/Colorful_images.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>32</width>
+                 <height>32</height>
+                </size>
+               </property>
+              </widget>
+              <widget class="FancyComboBox" name="comboBox_presets_model">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>20</y>
+                 <width>201</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_checkPint">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>20</y>
+                 <width>71</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Check Point:</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_4">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>301</width>
+                <height>80</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>GroupBox</string>
+              </property>
+              <widget class="FancyComboBox" name="comboBox_run_mode">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>50</y>
+                 <width>201</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_gen_mode">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>50</y>
+                 <width>71</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Gen Mode:</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_runMode">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>20</y>
+                 <width>71</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Language:</string>
+               </property>
+              </widget>
+              <widget class="FancyComboBox" name="cbbLanguage">
+               <property name="geometry">
+                <rect>
+                 <x>88</x>
+                 <y>20</y>
+                 <width>201</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QTabWidget" name="tabWidget_Editor">
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <widget class="QWidget" name="tab_5">
+             <attribute name="icon">
+              <iconset resource="../resource/resource.qrc">
+               <normaloff>:/icon/easy_mode2.png</normaloff>:/icon/easy_mode2.png</iconset>
+             </attribute>
+             <attribute name="title">
+              <string>ControlPanel</string>
+             </attribute>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QLabel" name="label_4">
+                <property name="minimumSize">
+                 <size>
+                  <width>120</width>
+                  <height>16</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>120</width>
+                  <height>16</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Positive Prompts:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPlainTextEdit" name="plainTextEdit_positivePrompts">
+                <property name="minimumSize">
+                 <size>
+                  <width>60</width>
+                  <height>60</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>9999</width>
+                  <height>9999</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_5">
+                <property name="minimumSize">
+                 <size>
+                  <width>120</width>
+                  <height>16</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>120</width>
+                  <height>16</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Negative Prompts:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPlainTextEdit" name="plainTextEdit_negativePrompts">
+                <property name="minimumSize">
+                 <size>
+                  <width>60</width>
+                  <height>60</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <item>
+                 <widget class="QLabel" name="label_seed">
+                  <property name="minimumSize">
+                   <size>
+                    <width>30</width>
+                    <height>18</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>30</width>
+                    <height>18</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>seed</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="spinBox_seed">
+                  <property name="minimumSize">
+                   <size>
+                    <width>80</width>
+                    <height>22</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>80</width>
+                    <height>22</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="checkBox_seed_fixed">
+                  <property name="minimumSize">
+                   <size>
+                    <width>64</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>fixed</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <item>
+                 <widget class="QLabel" name="label_w_h">
+                  <property name="minimumSize">
+                   <size>
+                    <width>41</width>
+                    <height>16</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>W x H</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="spinBox_W">
+                  <property name="minimumSize">
+                   <size>
+                    <width>72</width>
+                    <height>22</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label">
+                  <property name="text">
+                   <string> x </string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="spinBox_H">
+                  <property name="minimumSize">
+                   <size>
+                    <width>72</width>
+                    <height>22</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tab_6">
+             <attribute name="icon">
+              <iconset resource="../resource/resource.qrc">
+               <normaloff>:/icon/export_mode.png</normaloff>:/icon/export_mode.png</iconset>
+             </attribute>
+             <attribute name="title">
+              <string>Commands</string>
+             </attribute>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QPlainTextEdit" name="plainTextEdit_cmd">
+                <property name="minimumSize">
+                 <size>
+                  <width>160</width>
+                  <height>200</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </widget>
+          <widget class="QSplitter" name="splitter">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="minimumSize">
+             <size>
+              <width>480</width>
+              <height>420</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Result Display</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="FancyGraphicsView" name="graphicsView"/>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QTabWidget" name="tabWidget">
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+            <widget class="QWidget" name="tab">
+             <attribute name="icon">
+              <iconset resource="../resource/resource.qrc">
+               <normaloff>:/icon/The_results_show.png</normaloff>:/icon/The_results_show.png</iconset>
+             </attribute>
+             <attribute name="title">
+              <string>Log</string>
+             </attribute>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QGroupBox" name="groupBox_3">
+                <property name="minimumSize">
+                 <size>
+                  <width>96</width>
+                  <height>90</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>96</width>
+                  <height>90</height>
+                 </size>
+                </property>
+                <property name="title">
+                 <string>Control Panel</string>
+                </property>
+                <widget class="QPushButton" name="startButton">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>20</y>
+                   <width>71</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>60</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>110</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Start</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../resource/resource.qrc">
+                   <normaloff>:/icon/Start_running.png</normaloff>:/icon/Start_running.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="stopButton">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>50</y>
+                   <width>71</width>
+                   <height>30</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>60</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>110</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Stop</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../resource/resource.qrc">
+                   <normaloff>:/icon/Exit.png</normaloff>:/icon/Exit.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                </widget>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTextEdit" name="outputTextEdit">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"> 
+background-color: rgb(0, 0, 0);
+ 
+color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="readOnly">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FancyComboBox</class>
+   <extends>QComboBox</extends>
+   <header>fancycombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>FancyGraphicsView</class>
+   <extends>QGraphicsView</extends>
+   <header>fancygraphicsview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../resource/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
