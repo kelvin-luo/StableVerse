@@ -43,7 +43,7 @@ logo:
 
 ## :pushpin: Usage
 
-![捕获](E:\_SourceForge\StableVerse\assets\捕获.JPG)
+![捕获](assets/捕获.JPG)
 
 
 
@@ -51,7 +51,7 @@ logo:
 
 Developing software is not easy,if you like this software, please provide support❤️!Please follow my website,thank you to every star⭐ who has helped me the most!
 
-![wechat_ailypay](E:\_SourceForge\proj_qSD\src\StableVerse\resource\icon\wechat_ailypay.jpg)
+![wechat_ailypay](resource/icon/wechat_ailypay.jpg)
 
 
 
