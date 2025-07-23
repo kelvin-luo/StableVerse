@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.0)
+project( fisheye_calibrate_img )
+
+
+set(OpenCV_DIR "D:/d/Win10Big/cv480/opencv/build/x64/vc16/lib")
+find_package(OpenCV EXACT 4.8.0 REQUIRED PATHS "D:/d/Win10Big/cv480/opencv/build" )
+ 
+find_package( OpenCV REQUIRED  PATHS "D:\\win10\\cv3413GLVs2015installFull\\x64\\vc14\\lib")
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+
+add_executable( fisheye_calibrate_img fisheye_calibrate_img.cpp stereobm.cpp )
+target_link_libraries( fisheye_calibrate_img ${OpenCV_LIBS} )
+
+ 

@@ -34,8 +34,13 @@ else()
     find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Concurrent Multimedia MultimediaWidgets Core5Compat  OpenGL OpenGLWidgets Network REQUIRED)
 endif()
 
-# set(trage_runtime_output_dir ${OUTPUT_DIR_KENT})
-set(trage_runtime_output_dir ${CMAKE_SOURCE_DIR}/../bin)
+# //------------------------------------------//
+include(cmake_Kelvin/ProjectSsetting.cmake)
+# //------------------------------------------//
+
+# set(OUTPUT_DIR_KENT ${CMAKE_SOURCE_DIR}/../bin)
+set(trage_runtime_output_dir ${OUTPUT_DIR_KENT})
+# set(trage_runtime_output_dir ${CMAKE_SOURCE_DIR}/../bin)
 set(EXECUTABLE_OUTPUT_PATH "${trage_runtime_output_dir}") # qtcreator + msvc 可执行文件的输出目录
 set(CMAKE_BINARY_DIR "${trage_runtime_output_dir}")             # visual studio 2022 可执行的输出目录
 file(MAKE_DIRECTORY ${trage_runtime_output_dir})                      # 创建输出目录
@@ -95,7 +100,7 @@ message("-->qm_dir: ${qm_dir}")
 #***************************************************.ts 生成 .qm 结束**********************************************
 
 
-include_directories(gui . activation common core ../../thirdparty)
+include_directories(gui . activation common core ../../thirdparty include include/common)
 file(GLOB_RECURSE soruce core/*.cpp common/*.cpp gui/*.cpp   *.h *.ui *.qrc *.ts *.rc)
 
 add_executable(${NAME} ${soruce} )

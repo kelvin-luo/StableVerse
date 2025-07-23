@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.0)
+project( fisheye_calibrate_img )
+
+# Enable OpenMP
+find_package(OpenMP REQUIRED)
+if(OpenMP_CXX_FOUND)
+    target_link_libraries(YourTargetName PUBLIC OpenMP::OpenMP_CXX)
+endif()
+
+add_executable( fisheye_calibrate_img fisheye_calibrate_img.cpp stereobm.cpp )
+target_link_libraries( fisheye_calibrate_img ${OpenCV_LIBS} )
+
+ 

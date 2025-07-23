@@ -53,6 +53,22 @@ logo:
 
 
 
+## Install
+
+**prebuild app download:**
+
+https://github.com/kelvin-luo/StableVerse/releases/download/V20250723/StableVerse_v1.0_MSVC2019_v20250723.7z
+
+sha256:775b45a60331c0d6546e41adee2f93c700aa2105e166acbb3dca874b2a8bea5c
+
+**models download:**
+
+通过网盘分享的文件：models
+链接: https://pan.baidu.com/s/1hAve7jp1HlVwV3GIfu_n1w?pwd=vgqi 提取码: vgqi 
+--来自百度网盘超级会员v4的分享
+
+
+
 # ❤Donate
 
 Developing software is not easy,if you like this software, please provide support❤️!Please follow my website,thank you to every star⭐ !
