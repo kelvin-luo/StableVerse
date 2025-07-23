@@ -3,7 +3,7 @@ StableVerse is a locally run graph tool developed in C++. Suitable for beginners
 
 
 
-## :rocket:Characteristics:
+## :rocket:Characteristics
 
 - **Novice friendly**: Pre configured with multiple mainstream models to help beginners quickly enter their roles;
 - **Selected cases**: Integrating best practices to quickly generate images;
@@ -11,6 +11,20 @@ StableVerse is a locally run graph tool developed in C++. Suitable for beginners
 - **Lightweight**: smaller volume;
 - **Offline**: Independent model, customizable.It can be used without restrictions or internet connection.
 - **Privacy protection**: Local model, run locally. 
+
+
+
+## Platform support
+
+Supports cross platform operation. Currently tested well under Windows. Theoretically supports Linux and Mac environments.
+
+
+
+## Hardware dependency
+
+The hardware requires 6G of graphics memory from Nvidia graphics cards. Currently compatible with CUDA12.9
+
+
 
 
 
