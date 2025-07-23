@@ -43,13 +43,19 @@ logo:
 
 ## :pushpin: Usage
 
+
+
+![image-20250723201159620](assets/image-20250723201159620.png)
+
+![image-20250723200912773](assets/image-20250723200912773.png)
+
 ![捕获](assets/捕获.JPG)
 
 
 
 # ❤Donate
 
-Developing software is not easy,if you like this software, please provide support❤️!Please follow my website,thank you to every star⭐ who has helped me the most!
+Developing software is not easy,if you like this software, please provide support❤️!Please follow my website,thank you to every star⭐ !
 
 ![wechat_ailypay](resource/icon/wechat_ailypay.jpg)
 
