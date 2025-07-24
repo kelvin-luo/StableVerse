@@ -94,6 +94,12 @@ Developing software is not easy,if you like this software, please provide suppor
 
 ![wechat_ailypay](E:\_SourceForge\proj_qSD\StableVerse\resource\icon\wechat_ailypay.jpg)
 
+# 反馈&交流
+
+请添加QQ群1035351899联系
+
+![StableVerse-qrcode_1753287916092](assets/StableVerse-qrcode_1753287916092.jpg)
+
 
 
 # :revolving_hearts:致谢

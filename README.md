@@ -79,6 +79,12 @@ logo:
 
 ![捕获](assets/捕获.JPG)
 
+# Connection
+
+please add QQ group1035351899 to communicate!
+
+![StableVerse-qrcode_1753287916092](assets/StableVerse-qrcode_1753287916092.jpg)
+
 
 
 
