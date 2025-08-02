@@ -37,8 +37,7 @@ sha256:775b45a60331c0d6546e41adee2f93c700aa2105e166acbb3dca874b2a8bea5c
 **models download:**
 
 通过网盘分享的文件：models
-链接: https://pan.baidu.com/s/1hAve7jp1HlVwV3GIfu_n1w?pwd=vgqi 提取码: vgqi 
---来自百度网盘超级会员v4的分享
+链接: https://pan.baidu.com/s/1uPzOXp3uUFeGXNOLAK0Lew?pwd=3tbz 提取码: 3tbz 
 
 
 
