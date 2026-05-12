@@ -91,7 +91,7 @@ private:
     void preset_Anything_v5();
     void preset_AnythingXL();
     void preset_Flux_v1();
-    void MainWindow::preset_juggernautXL_juggXIByRundiffusion();
+    void preset_juggernautXL_juggXIByRundiffusion();
     void preset_animaPencilXL_v500();
 
 private:

@@ -34,9 +34,9 @@ else()
     find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Concurrent Multimedia MultimediaWidgets Core5Compat  OpenGL OpenGLWidgets Network REQUIRED)
 endif()
 
-# //------------------------------------------//
-include(cmake_Kelvin/ProjectSsetting.cmake)
-# //------------------------------------------//
+# # //------------------------------------------//
+# include(cmake_Kelvin/ProjectSsetting.cmake)
+# # //------------------------------------------//
 
 # set(OUTPUT_DIR_KENT ${CMAKE_SOURCE_DIR}/../bin)
 set(trage_runtime_output_dir ${OUTPUT_DIR_KENT})
