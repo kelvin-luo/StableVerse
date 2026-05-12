@@ -17,7 +17,10 @@
     My Github homepage: https://github.com/kelvin-luo
 */
 #include "mainwindow.h"
+#include "pluginhost.h"
+
 #include <QApplication>
+#include <QCoreApplication>
 
 //#pragma encoding("UTF-8")
 //#pragma execution_character_set("utf-8")
@@ -37,7 +40,12 @@ int main(int argc, char *argv[]) {
     // QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
 
     QApplication a(argc, argv);
+    PluginHost::instance().loadFromDirectory(
+        QCoreApplication::applicationDirPath() + QStringLiteral("/plugins"));
     MainWindow w;
     w.show();
-    return a.exec();
+    PluginHost::instance().attachMainWindow(&w);
+    const int code = a.exec();
+    PluginHost::instance().shutdown();
+    return code;
 }    
